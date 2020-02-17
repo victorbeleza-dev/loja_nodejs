@@ -13,7 +13,6 @@ fetch(url).then(function (response) {
 })
 
 $('.slider-mostpopular').slick({
-    infinite: false,
     speed: 300,
     slidesToShow: 4,
   });
