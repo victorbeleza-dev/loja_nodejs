@@ -6,11 +6,11 @@ var app = express();
 
 app.get('/', function(req, res, next) {
     mostPopular().then((result) => {
-       res.send(result);
+        console.log('1')
     });
 
     priceReduction().then((result) => {
-        res.send(result);
+        console.log('2')
      });
 });
 
